@@ -5,26 +5,26 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_marginTop="50dp"
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
         android:text="Initial Text" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:text="Initial Text" />
+        android:text="Initial Text"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="invisible"
+        android:text="Initial Text"
 
-        android:text="Initial Text" />
+        android:visibility="invisible" />
 
     <Button
         android:id="@+id/button"
